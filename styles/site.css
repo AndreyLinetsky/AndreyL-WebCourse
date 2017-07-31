@@ -107,6 +107,7 @@ nav li .category {
     text-align: center;
     vertical-align: middle;
     line-height: 39px;
+    position: relative;
 }
 nav a {
     text-decoration: none;
@@ -136,8 +137,8 @@ nav .misc-category a:active img {
     content: url("../images/misc_w.png");
 }
 nav .category img {
-    float: left;
-    padding-left: 5px;
+    left: 10px;
+    position: absolute;
     padding-top: 3px;
 }
 .items-catalog {
