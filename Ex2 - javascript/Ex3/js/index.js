@@ -21,7 +21,7 @@ function testInput() {
 }
 
 function testPrime(input) {
-    if (isNaN(input)) {
+    if (!$.isNumeric(input)) {
         return isNaN;
     }
 
