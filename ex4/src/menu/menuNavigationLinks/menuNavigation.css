@@ -1,0 +1,19 @@
+.menuNavigation{
+    list-style-type: none;
+    font-size:12px;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+
+.menuNavigation li{
+     margin: 10px 0px;
+     color:white;
+     cursor: pointer;
+     text-align: center;
+}
+
+.menuNavigation .decoratedLink{
+    text-decoration: line-through;
+    color: black;
+}

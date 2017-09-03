@@ -1,0 +1,38 @@
+.itemFormContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.itemFormTitle{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.itemForm{
+  display: block;
+  margin : 10px auto;
+  padding-left: 5px;
+  width: 700px;
+  border: 1px solid black;
+}
+
+.itemFormRow{
+  display: block;
+  margin-top:10px;
+}
+
+.itemForm span{
+    margin-right: 12px;
+    width: 20%;
+    display: inline-block;
+}
+
+.itemForm input{
+    width: 77%;
+}
+
+.itemForm .formButton{
+    width: 7%;
+    display: block;
+    margin : 10px auto;
+}

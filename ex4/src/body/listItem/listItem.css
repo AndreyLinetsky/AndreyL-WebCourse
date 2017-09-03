@@ -1,0 +1,51 @@
+.listItemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.listItem{
+    width: 70px;
+    height: 200px;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 0 40px;
+}
+
+.imageContainer{
+  margin-top: 20px; 
+  height: 50px;
+  display: flex;
+}
+
+.itemImage{
+   height: 100%;
+   margin: auto;
+   -webkit-filter: invert(90%);
+   filter: invert(90%);
+}
+
+.itemTitle{
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: #eeeeee;
+    height: 50px;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.deleteButton{
+    height: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.editButton{
+ float:left;
+ cursor: pointer;
+ background-color: inherit;
+ border: 1px solid black;
+ border-radius: 1px;
+}

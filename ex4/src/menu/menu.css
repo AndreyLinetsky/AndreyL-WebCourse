@@ -1,0 +1,10 @@
+.menuContainer{
+    width: 90px;
+    float: left;
+    height: 100%;
+    background: linear-gradient(lightgreen, lightblue);
+    position: relative;
+    padding: 0 30px;
+}
+
+

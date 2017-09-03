@@ -1,0 +1,16 @@
+.socialLinksList{
+    position:absolute;
+    bottom: 5px;
+    padding-left: 7px;
+}
+
+.socialLinksList li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 6px;
+}
+
+.socialLink{
+    width: 10px;
+}
+
