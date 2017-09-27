@@ -1,0 +1,17 @@
+.product-page-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-page-desc{
+ font-size: 20px;
+}
+
+.product-page-price{
+    font-size: 25px;
+}
+
+.product-page-buy-button{
+    margin: auto;
+}
